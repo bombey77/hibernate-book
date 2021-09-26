@@ -1,0 +1,8 @@
+<hibernate-mapping>
+    <class name="com.hibernate.motovilov.entity.Email">
+        <id name="id" type="long" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="email"/>
+    </class>
+</hibernate-mapping>

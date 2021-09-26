@@ -1,5 +1,6 @@
 package com.hibernate.motovilov;
 
+import com.hibernate.motovilov.entity.Email;
 import com.hibernate.motovilov.entity.User;
 import org.hibernate.Session;
 
@@ -14,6 +15,11 @@ public class Start {
         user.setName("Roman");
         user.setEmail("someemail@gmail.com");
         session.save(user);
+
+        // mapping with xml example
+        Email email = new Email();
+        email.setEmail("test@mail.com");
+        session.persist(email);
 
         session.getTransaction().commit();
         session.close();
