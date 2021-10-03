@@ -1,5 +1,6 @@
-package com.hibernate.motovilov;
+package com.hibernate.motovilov.demo1_mapping;
 
+import com.hibernate.motovilov.HibernateUtil;
 import com.hibernate.motovilov.entity.Email;
 import com.hibernate.motovilov.entity.User;
 import org.hibernate.Session;

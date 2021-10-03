@@ -1,5 +1,6 @@
 package com.hibernate.motovilov.entity;
 
+// mapping with xml example
 public class Email {
 
     private Long id;
