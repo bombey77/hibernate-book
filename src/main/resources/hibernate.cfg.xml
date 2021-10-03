@@ -20,6 +20,7 @@
         <mapping class="com.hibernate.motovilov.entity.User"/>
         <mapping class="com.hibernate.motovilov.entity.Figure"/>
         <mapping class="com.hibernate.motovilov.entity.Material"/>
+        <mapping class="com.hibernate.motovilov.entity.Price"/>
 
         <mapping resource="entities/Email.hbm.xml"/>
     </session-factory>
