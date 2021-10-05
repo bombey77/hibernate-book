@@ -27,6 +27,7 @@
         <mapping class="com.hibernate.motovilov.entity.Rower"/>
         <mapping class="com.hibernate.motovilov.entity.Currency"/>
         <mapping class="com.hibernate.motovilov.entity.Wheel"/>
+        <mapping class="com.hibernate.motovilov.entity.Shape"/>
 
         <mapping resource="entities/Email.hbm.xml"/>
     </session-factory>
