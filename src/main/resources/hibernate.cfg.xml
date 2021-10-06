@@ -29,7 +29,9 @@
         <mapping class="com.hibernate.motovilov.entity.Wheel"/>
         <mapping class="com.hibernate.motovilov.entity.Shape"/>
         <mapping class="com.hibernate.motovilov.entity.User1"/>
+        <mapping class="com.hibernate.motovilov.entity.User2"/>
         <mapping class="com.hibernate.motovilov.entity.Role1"/>
+        <mapping class="com.hibernate.motovilov.entity.Role2"/>
 
         <mapping resource="entities/Email.hbm.xml"/>
     </session-factory>
