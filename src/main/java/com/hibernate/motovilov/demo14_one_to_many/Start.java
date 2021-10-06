@@ -1,4 +1,4 @@
-package com.hibernate.motovilov.demo13_one_to_one;
+package com.hibernate.motovilov.demo14_one_to_many;
 
 import com.hibernate.motovilov.HibernateUtil;
 import com.hibernate.motovilov.entity.Role4;
@@ -8,7 +8,7 @@ import org.hibernate.Session;
 import java.util.Arrays;
 
 // Bidirectional
-public class Start4 {
+public class Start {
 
     public static void main(String[] args) {
         Session session = HibernateUtil.getSessionFactory().openSession();
