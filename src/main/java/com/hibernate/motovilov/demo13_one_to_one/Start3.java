@@ -5,7 +5,7 @@ import com.hibernate.motovilov.entity.Role3;
 import com.hibernate.motovilov.entity.User3;
 import org.hibernate.Session;
 
-// C использованием таблицы отношений
+// C использованием явного внешнего ключа
 public class Start3 {
 
     public static void main(String[] args) {
