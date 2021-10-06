@@ -32,10 +32,12 @@
         <mapping class="com.hibernate.motovilov.entity.User2"/>
         <mapping class="com.hibernate.motovilov.entity.User3"/>
         <mapping class="com.hibernate.motovilov.entity.User4"/>
+        <mapping class="com.hibernate.motovilov.entity.User5"/>
         <mapping class="com.hibernate.motovilov.entity.Role1"/>
         <mapping class="com.hibernate.motovilov.entity.Role2"/>
         <mapping class="com.hibernate.motovilov.entity.Role3"/>
         <mapping class="com.hibernate.motovilov.entity.Role4"/>
+        <mapping class="com.hibernate.motovilov.entity.Role5"/>
 
         <mapping resource="entities/Email.hbm.xml"/>
     </session-factory>
