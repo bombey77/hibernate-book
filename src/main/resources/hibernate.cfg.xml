@@ -38,6 +38,9 @@
         <mapping class="com.hibernate.motovilov.entity.Role3"/>
         <mapping class="com.hibernate.motovilov.entity.Role4"/>
         <mapping class="com.hibernate.motovilov.entity.Role5"/>
+        <mapping class="com.hibernate.motovilov.entity.Account"/>
+        <mapping class="com.hibernate.motovilov.entity.CreditAccount"/>
+        <mapping class="com.hibernate.motovilov.entity.DebitAccount"/>
 
         <mapping resource="entities/Email.hbm.xml"/>
     </session-factory>
