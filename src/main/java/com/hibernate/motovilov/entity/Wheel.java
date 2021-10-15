@@ -1,5 +1,8 @@
 package com.hibernate.motovilov.entity;
 
+import javax.persistence.AttributeOverride;
+import javax.persistence.AttributeOverrides;
+import javax.persistence.Column;
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,6 +23,12 @@ public class Wheel {
     // то над этим полем можно установить аннотацию @Embedded (не обязательно)
     @Embedded
     private Tire tire;
+
+    @AttributeOverrides({
+        @AttributeOverride(name = "type", column = @Column(name = "change_type")),
+        @AttributeOverride(name = "material", column = @Column(name = "change_material"))
+    })
+    private Tire changeTire;
 
     public Long getId() {
         return id;
@@ -51,5 +60,13 @@ public class Wheel {
 
     public void setTire(Tire tire) {
         this.tire = tire;
+    }
+
+    public Tire getChangeTire() {
+        return changeTire;
+    }
+
+    public void setChangeTire(Tire changeTire) {
+        this.changeTire = changeTire;
     }
 }

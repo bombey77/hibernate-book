@@ -1,8 +1,5 @@
 package com.hibernate.motovilov.entity;
 
-import javax.persistence.Entity;
-
-@Entity
 public class Student extends User6 {
 
 	private String course;

@@ -15,10 +15,17 @@ public class Start {
         Wheel wheel = new Wheel();
         wheel.setModel("buggy");
         wheel.setCalibre(19);
+
         Tire tire = new Tire();
         tire.setMaterial("caoutchouc");
         tire.setType("drug");
+
+        Tire changeTire = new Tire();
+        changeTire.setMaterial("caoutchouc");
+        changeTire.setType("sport");
+
         wheel.setTire(tire);
+        wheel.setChangeTire(changeTire);
 
         session.save(wheel);
         session.getTransaction().commit();
