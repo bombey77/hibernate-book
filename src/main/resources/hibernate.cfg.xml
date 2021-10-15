@@ -49,6 +49,9 @@
         <mapping class="com.hibernate.motovilov.entity.DebitAccount2"/>
         <mapping class="com.hibernate.motovilov.entity.Phone"/>
         <mapping class="com.hibernate.motovilov.entity.Watch"/>
+        <mapping class="com.hibernate.motovilov.entity.Instructor"/>
+        <mapping class="com.hibernate.motovilov.entity.Student"/>
+        <mapping class="com.hibernate.motovilov.entity.User6"/>
 
         <mapping resource="entities/Email.hbm.xml"/>
     </session-factory>
